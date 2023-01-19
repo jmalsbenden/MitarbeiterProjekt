@@ -68,7 +68,9 @@ public abstract class Mitarbeiter implements Comparable<Mitarbeiter>, IAbteilung
     return o.getName().compareTo(this.getName());
   }
 
-
+  public void test(){
+    //do smth
+  }
 
 
   public static class MitarbeiterComperator implements Comparator<Mitarbeiter>
